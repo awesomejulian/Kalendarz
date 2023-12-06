@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalendarz Adwentowy</title>
+    <style>
+        body {
+            font-family: 'Brush Script MT', 'Brush Script Std', 'cursive';
+            text-align: center;
+            color: rgb(26, 5, 211);
+            background-image: url('https://png.pngtree.com/png-clipart/20230923/original/pngtree-handdrawn-lettering-joy-and-sweet-teddy-bears-and-donuts-create-a-png-image_12736820.png');
+        }
+
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin: 2px;
+        
+        }
+
+        .day {
+            border: 4px double #0f0d0d;
+    
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCdC3KHJFkv7nVzAxRpyfAIAK9UE9_aovXyA&usqp=CAU');
+            border-radius: 20px;
+            height: 40px;
+            padding: 20px;
+            cursor: pointer;
+
+
+        }
+        h1{
+            color: rgb(144, 35, 124);
+        }
+        p{
+            font-size: 30px;
+            padding-bottom: 40px;
+        }
+        .xd{
+            text-align: right;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <h1>Kalendarz Adwentowy aka Rosyjska Ruletka</h1>
+
+    <div class="calendar">
+
+        <div class="day" onclick="showSurprise(1)"><p>1</p></div>
+        <div class="day" onclick="showSurpris(2)"><p>2</p></div>
+        <div class="day" onclick="showSurprise(3)"><p>3</p></div>
+        <div class="day" onclick="showSurpris(4)"><p>4</p></div>
+        <div class="day" onclick="showSurprise(5)"><p>5</p></div>
+        <div class="day" onclick="showSurpris(6)"><p>6</p></div>
+        <div class="day" onclick="showSurprise(7)"><p>7</p></div>
+        <div class="day" onclick="showSurpris(8)"><p>8</p></div>
+        <div class="day" onclick="showSurprise(9)"><p>9</p></div>
+        <div class="day" onclick="showSurpris(10)"><p>10</p></div>
+        <div class="day" onclick="showSurprise(11)"><p>11</p></div>
+        <div class="day" onclick="showSurpris(12)"><p>12</p></div>
+        <div class="day" onclick="showSurprise(13)"><p>13</p></div>
+        <div class="day" onclick="showSurpris(14)"><p>14</p></div>
+        <div class="day" onclick="showSurprise(15)"><p>15</p></div>
+        <div class="day" onclick="showSurpris(16)"><p>16</p></div>
+        <div class="day" onclick="showSurprise(17)"><p>17</p></div>
+        <div class="day" onclick="showSurpris(18)"><p>18</p></div>
+        <div class="day" onclick="showSurprise(19)"><p>19</p></div>
+        <div class="day" onclick="showSurpris(20)"><p>20</p></div>
+        <div class="day" onclick="showSurprise(21)"><p>21</p></div>
+        <div class="day" onclick="showSurpris(22)"><p>22</p></div>
+        <div class="day" onclick="showSurprise(23)"><p>23</p></div>
+        <div class="day" onclick="showSurpris(24)"><p>24</p></div>
+    </div>
+        <p class="xd">Julian Tymicki</p>
+
+        <script>
+            function showSurprise(dayNumber) {
+                location.href = "https://www.youtube.com/watch?v=LC6bKqzM_-w";
+            }
+            function showSurpris(dayNumber) {
+                alert('Ile zarabia mechanik samochodowy?');
+                alert(' 4 koła!');
+               
+            }
+            function showSurprise(dayNumber) {
+                alert('Przekierowywujemy cię na strone ^^');
+                location.href = "https://www.youtube.com/watch?v=LC6bKqzM_-w";
+            }
+            function showSurprise(dayNumber) {
+                alert('Przekierowywujemy cię na strone ^^');
+                location.href = "https://www.youtube.com/watch?v=LC6bKqzM_-w";
+            }
+        </script>
+</body>
+</html>
